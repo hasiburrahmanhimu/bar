@@ -1,0 +1,230 @@
+*{
+  box-sizing: border-box;
+  }
+
+.bar{
+  background-image:url("./jordan-nix-4Hmj9gkyM6c-unsplash.jpg");
+  max-width: 1000px;
+  height: 710px;
+  margin: 300px auto;
+  padding: 10px;
+ border: 9px solid rgb(168, 7, 7);
+  position: relative;
+  transition:1s ;
+  }
+  .bar:hover{
+box-shadow: 5px 6px 6px rgb(184, 57, 57);
+transform: scale(1.009);
+  }
+  .bar li{
+color: rgb(255, 0, 0);
+  list-style-type: none;
+  font-size: 130%;
+  font-family: sans-serif;
+  padding: 27px;
+ position: relative;
+left: -39px;
+top: 0px;
+text-shadow: 3px 2px 2px yellow;
+position: relative;
+  }
+
+  .bar li::before{
+content: '';
+position: absolute;
+background-color: rgb(128, 92, 92);
+top: calc(100% + -15px);
+height: 25px;
+width: 100%;
+border-radius: 1000px;
+
+  }
+  .bar li::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(77, 5, 5);
+    top: calc(100% + -15px);
+    height: 25px;
+    width: 0%;
+    border-radius: 1000px;
+    left: 26px;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: backforward;
+    animation-fill-mode: forwards;
+    
+      }
+
+     .bar li.cs::after{
+        animation-name: cs;
+       
+
+}
+     
+      @keyframes cs
+{
+to
+{
+
+    width: 90%;
+ 
+}
+
+}
+
+.bar li.ee::after{
+  animation-name: ee;
+ 
+
+}
+
+@keyframes ee
+{
+to
+{
+
+width: 80%;
+
+}
+
+}
+.bar li.tex::after{
+  animation-name: tex;
+ 
+
+}
+
+@keyframes tex
+{
+to
+{
+
+width: 70%;
+
+}
+
+}
+.bar li.ci::after{
+  animation-name: ci;
+ 
+
+}
+
+@keyframes ci
+{
+to
+{
+
+width: 60%;
+
+}
+
+}
+.bar li.bba::after{
+  animation-name: bba;
+ 
+
+}
+
+@keyframes bba
+{
+to
+{
+
+width: 95%;
+
+}
+
+}
+.bar li.eco::after{
+  animation-name: eco;
+ 
+
+}
+
+@keyframes eco
+{
+to
+{
+
+width: 50%;
+
+}
+
+}
+.e{
+position: absolute;
+top: -1000px;
+
+}
+
+
+.opacity{
+  position: absolute;
+top: 150px;
+text-align: center;
+}
+h1{
+position: absolute;
+bottom: -80px;
+left: 460px;
+font-size: 120%;
+}
+h2{
+  position: absolute;
+  bottom: -165px;
+  left: 460px;
+  font-size: 120%;
+  }
+  h3{
+    position: absolute;
+    bottom: -250px;
+    left: 460px;
+    font-size: 120%;
+    }
+    h4{
+      position: absolute;
+      bottom: -329px;
+      left: 460px;
+      font-size: 120%;
+      }
+      h5{
+        position: absolute;
+        bottom: -420px;
+        left: 460px;
+        font-size: 120%;
+        }
+        h6{
+          position: absolute;
+          bottom: -505px;
+          left: 460px;
+          font-size: 120%;
+          }
+
+
+          .opacity:hover{
+            animation-name: opacity;
+            animation-duration:20s;
+            animation-fill-mode: forwards;
+        
+        }
+        @keyframes opacity {
+            
+        
+            0%{
+        
+               opacity: 100%;
+            }
+            50%{
+              opacity: 30%;
+            }
+            100%{
+        
+              opacity: 0%;
+        }
+        
+                   
+    
+  
